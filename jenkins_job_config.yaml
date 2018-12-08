@@ -1,4 +1,8 @@
 folders:
-  - folder_path: "sample"
-    description: "Sample Description"
-jobs: []
+  - folder_path: "odin"
+    description: "odin service jobs"
+jobs:
+  - job_path: "odin/build_job"
+    jenkinsfile_git_repo: "https://github.com/shreyaspatil1008/odin.git"
+    jenkinsfile_path: "Jenkinsfile"
+    auto_trigger: true
